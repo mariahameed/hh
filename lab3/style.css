@@ -1,0 +1,90 @@
+	body{
+		background-image:url(back3.jpg);
+	}
+	a{
+	text-decoration:none;
+	}
+	.navDiv a{
+	text-decoration:none;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #fff;
+	font-size: 20px;
+	
+	}
+	
+	.shadowText{
+		color:#fff;
+		text-shadow: 0px 0px 5px #000;
+		text-decoration: underline;
+	}
+	
+	.navDiv
+	{
+	background-color:rgb(188,169,37);
+	padding:10px;
+	border:10px solid transparent;
+	border-image: url(b1.png) 30 round
+
+	}
+	ul{
+	}
+	li{
+	display:inline;
+	text-align:center;
+	width:250px;
+	}
+	.navDiv a:hover{
+	font-size:110%;
+	}
+	.mainDiv
+	{
+	height:100px;
+	background:rgba(188,169,37,0.5);
+	}
+	
+	.fixed_footer
+	{
+		position: fixed;
+		bottom:0;
+		background-color:rgb(188,169,37);
+		width:1270px;
+		left:30px;
+		height:35px;
+		border-top: 2px solid rgb(123,169,37);
+		padding-left:30px
+		
+	}
+ 
+ 
+ .div1 {
+    width: 40px;
+    height: 250px;
+	opacity:0;
+	float:left;
+animation: example 0.5s linear 0.2s infinite;
+}
+
+/* Standard syntax */
+@keyframes example {
+    from {background-color: black;}
+    to {background-color: white;}
+}
+
+
+
+
+
+.div2 {
+    width: 40px;
+    height: 250px;
+	float:left;
+	opacity:0;
+animation: example1 0.5s linear 0.5s infinite;
+	}
+
+
+/* Standard syntax */
+@keyframes example1 {
+    from {background-color: white;}
+    to {background-color: black;}
+}
